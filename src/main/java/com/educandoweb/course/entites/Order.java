@@ -85,7 +85,7 @@ public class Order implements Serializable {
 	}
 	
 	public Set<OrderItem> getItem(){
-		return items;
+		return items;   
 	}
 
 	@Override
